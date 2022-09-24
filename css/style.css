@@ -1,0 +1,64 @@
+@import 'style-2.css';
+@import 'startup_styles.css';
+
+/* global */
+img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0.5rem 0;
+}
+
+/* sections */
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.section-bg {
+  background-color: #1a1814;
+}
+
+.intro,
+.img {
+  flex: 1;
+}
+
+.intro {
+  padding: 2rem;
+}
+
+/* scroll indicator */
+#scroll-indicator {
+  position: fixed;
+  top: 60px;
+  height: 10px;
+  width: 0%;
+  background-color: #cda45e;
+  z-index: 100;
+}
+
+footer {
+  padding: 2rem;
+  background-color: #343434;
+  color: #f3f3f3;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.between {
+  width: 100%;
+}
+
+.between > ul {
+  margin-left: auto;
+}

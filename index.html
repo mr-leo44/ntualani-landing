@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/script.js" defer></script>
+    <title>Ntualani | Landing Page</title>
+  </head>
+  <body>
+      <header>
+          <div class="wrapper header-wrapper">
+            <nav class="between">
+        <div>
+          <a href="#" class="logo">NTUALANI</a>
+         </div>
+          <ul class="navbar py-auto">
+            <li><a href="#about" class="navbar__link">A propos</a></li>
+            <li><a href="#services" class="navbar__link">Services</a></li>
+            <li><a href="#portfolio" class="navbar__link">Portfolio</a></li>
+            <li><a href="#clients" class="navbar__link">Clients</a></li>
+            <li><a href="#contact" class="navbar__link">Contact</a></li>
+          </ul>
+            </nav>
+          </div>
+        </header>    <div id="scroll-indicator"></div>
+    <main>
+      <div class="wrapper">
+        <section class="hero" id="home">
+          <div class="intro">
+            <h1>Bienvenue Chez Ntualani</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              voluptas voluptates tenetur ad officiis ea corporis quos
+              voluptatibus vitae illo corrupti quas, libero eaque sint soluta,
+              eos natus, similique asperiores.
+            </p>
+            <button class="btn btn-cta">
+              <a href="index.html#about" class="text-white">
+                <i class="fas fa-shopping-cart"></i> A propos de nous
+              </a>
+            </button>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <div class="intro">
+            <h1>A propos de nous</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum sit voluptatem voluptatibus sequi at amet explicabo quam. Aut reiciendis obcaecati enim ut sed magni unde quae quam ipsum ratione?</p>
+          </div>
+          <div class="img">
+            <img src="./imgs/about.jpg" alt="">
+          </div>
+        </section>
+        <section class="services" id="services">
+          <div class="intro">
+            <h1>Nos Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum sit voluptatem voluptatibus sequi at amet explicabo quam. Aut reiciendis obcaecati enim ut sed magni unde quae quam ipsum ratione?</p>
+          </div>
+          <div class="img">
+            <img src="./imgs/pic1.jpg" alt="">
+          </div>
+        </section>
+        <section class="portfolio" id="portfolio">
+            <div class="intro">
+              <h1>Portfolio</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum sit voluptatem voluptatibus sequi at amet explicabo quam. Aut reiciendis obcaecati enim ut sed magni unde quae quam ipsum ratione?</p>
+            </div>
+            <div class="img">
+              <img src="./imgs/course_3.jpg" alt="">
+            </div>
+          </section>
+        <section class="clients" id="clients">
+          <div class="intro">
+            <h1>Nos Clients</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum sit voluptatem voluptatibus sequi at amet explicabo quam. Aut reiciendis obcaecati enim ut sed magni unde quae quam ipsum ratione?</p>
+            </div>
+            <div class="img">
+                <div class="row gy-4 justify-content-center">
+                
+              <div class="col-lg-9">
+                <div class="testimonial-content">
+                  <p>
+                    <i class="bi bi-quote quote-icon-left"></i>
+                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                      <i class="bi bi-quote quote-icon-right"></i>
+                      </p>
+                      <h3>Bénédicte Matanda</h3>
+                      <h4>Ceo &amp; Founder</h4>
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 text-center">
+                      <img src="./imgs/client.png" class="img-fluid testimonial-img" alt="">
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+          <div class="intro">
+            <div class="text-center mb-5">
+              <h1>Nous Contacter</h1>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-4">
+                  <div class="info">
+                    <div class="address">
+                      <i class="bi bi-geo-alt"></i>
+                      <h4>Adresse:</h4>
+                      <p>6 Lubefu, Kinshasa</p>
+                    </div>
+      
+                    <div class="email">
+                      <i class="bi bi-envelope"></i>
+                      <h4>Email:</h4>
+                      <p>grady@ntualani.com</p>
+                    </div>
+      
+                    <div class="phone">
+                      <i class="bi bi-phone"></i>
+                      <h4>Téléphone:</h4>
+                      <p>+243 859 488 555</p>
+                    </div>
+      
+                  </div>
+      
+                </div>
+      
+                <div class="col-lg-8 mt-5 mt-lg-0">
+      
+                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="row">
+                      <div class="col-md-6 form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                      </div>
+                      <div class="col-md-6 form-group mt-3 mt-md-0">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                      </div>
+                    </div>
+                    <div class="form-group mt-3">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group mt-3">
+                      <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="my-3">
+                      <div class="loading">Loading</div>
+                      <div class="error-message"></div>
+                      <div class="sent-message">Your message has been sent. Thank you!</div>
+                    </div>
+                    <div class="text-center"><button type="submit">Send Message</button></div>
+                  </form>
+      
+                </div>
+      
+            </div>
+        
+              </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      Copyright Grady Ntualani &copy;2022
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
